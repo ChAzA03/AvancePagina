@@ -1,0 +1,4 @@
+formulario del boton de registrarse
+darle funcion al boton iniciar sesión
+cambiar el color del fondo del titulo
+poner la descripción a la derecha de las imagenes

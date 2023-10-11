@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fbff;
+  }
+
+  header {
+    background-color: #0056b3;
+    color: #989191;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .search-box {
+    position: absolute;
+    top: 15px;
+    right: 240px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .search-box input[type="text"] {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 5px;
+  }
+
+  /* Estilos para los elementos en el header */
+  .header-icons {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  /* Estilos para el contenido */
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .game {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+  }
+
+  .game img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .game-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .game-price {
+    font-size: 16px;
+    color: #007bff;
+    margin-top: 5px;
+  }
+
+  .buy-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #1c3653;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .instagram-icon {
+    color: #e1306c;
+  }
+
+  .contact-icon {
+    color: #28a745;
+  }
+  
+  .header-icons a:hover{
+    color: #007bff;
+  }
+
+  .campo1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+  }
+
+  .campo2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nombres{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+  }
+
+  .nombres input{
+    width: 38.5em;
+    height: 2em;
+    padding-left: 1em;
+    outline: none;
+  }
+
+  .campo3{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .campo3 input{
+    width: 80em;
+    height: 2em;
+    outline: none;
+    padding-left: 1em;
+  }
+
+  .campo4{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .campo4 input{
+    width: 80em;
+    height: 2em;
+    outline: none;
+    padding-left: 1em;
+  }
+
+  .campo5{
+    margin-top: 1.5em;
+    padding-right: 40em;
+  }
+
+  .campo6{
+    margin-top: 0.2em;
+    padding-right: 43.4em;
+  }
+  
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .formulario input{
+    border-radius: 10px;
+    border: 1px solid silver;
+    background-color: #f5f5f5;
+  }
+
+  .boton label{
+    color: white;
+  }
+
+  .boton{
+    background-color: #0056b3;
+    height: 2em;
+    width: 10em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.8em;
+    border-radius: 15px;
+    right:0;
+    margin-top: 3em;
+    margin-left: 57.5em;
+  }
+
+  .boton:hover{
+    background-color: #0868cf;
+    cursor: pointer;
+  }
+
+  header a{
+    text-decoration: none;
+    color: white;
+  }
+  .h1 a:visited{
+    text-decoration: none;
+  }
+  .h1 a:hover{
+    text-decoration: none;
+  }
+
+  .confirm-button{
+    padding: 5px 10px;
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  .game{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .foto1 img{
+    width: 40em;
+  }
+
+  .foto2 img{
+    width: 35em;
+  }
+
+  .foto3 img{
+    width: 32.5em;
+  }
+
+  .foto4 img{
+    width: 20.5em;
+  }
+
+  .texto{
+    padding-left: 1.5em;
+  }
